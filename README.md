@@ -33,6 +33,7 @@ mvn package
 **Run Jar**
 
 ```
-spark-submit --class HelloWorld /path/to/target/folder/Snapshot-1-HelloWorld-fat.jar
+spark-submit --class HelloWorld /path/to/ScalaSparkHW/target/ScalaSparkHW-1.2-SNAPSHOT-fat.jar
+
 ```
 
