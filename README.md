@@ -22,6 +22,24 @@ export PATH=$PATH:$SPARK_HOME/bin
 spark-submit --version
 ```
 
+### Clone Repo
+
+Setup
+
+1. Set openjdk
+
+<img width="852" alt="openjdk" src="https://user-images.githubusercontent.com/26292532/182180595-263b433b-af49-4fa5-8e35-9d21ddb91a8b.png">
+
+2. Add Scala framework support
+
+<img width="404" alt="scala_frameworksupport" src="https://user-images.githubusercontent.com/26292532/182180678-afb9a57c-ce88-47ae-bde9-48337d0113c7.png">
+
+3. Mark source directory
+
+<img width="707" alt="Screen Shot 2022-08-01 at 10 44 00 AM" src="https://user-images.githubusercontent.com/26292532/182180767-71d915da-2394-4bb2-9669-a3802f32bb79.png">
+
+
+
 Note: SparkSession -  need to ensure you set spark-config to: *.config("spark.master", "local")*
 
 ```
