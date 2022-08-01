@@ -16,10 +16,16 @@ export PATH=$PATH:$JAVA_HOME/bin
 export PATH=$PATH:$SPARK_HOME/bin
 ```
 
--Check spark-submit setup properly
+- Check spark-submit setup properly
 
 ```
 spark-submit --version
+```
+
+Note: SparkSession -  need to ensure you set spark-config to: *.config("spark.master", "local")*
+
+```
+val spark = SparkSession.builder().appName("HelloSpark").config("spark.master", "local").getOrCreate()
 ```
 
 **Compile Jar**
