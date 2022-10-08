@@ -18,7 +18,7 @@ object HelloWorld {
 
     println("Reading parquet file")
 
-    val parqDF = spark.read.parquet("/Users/nikolakuzmic/Desktop/part-00000-aa642a6d-fc9d-4c7d-82cd-dff5b8afa1d3-c000.snappy.parquet")
+    val parqDF = spark.read.parquet("src/main/resources/data/part-00000-aa642a6d-fc9d-4c7d-82cd-dff5b8afa1d3-c000.snappy.parquet")
     parqDF.show()
   }
 
