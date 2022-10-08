@@ -68,4 +68,4 @@ For some reason jar is able to load the parquet file when executed using
 java -cp /path/to/fatjar HelloWorld
 ```
 
-but not using spark-submit and throws Java Illegal exception error.
+but not using spark-submit and throws inaccessible object error.
