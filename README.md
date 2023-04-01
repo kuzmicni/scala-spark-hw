@@ -60,12 +60,9 @@ mvn package
 spark-submit --class HelloWorld /path/to/ScalaSparkHW/target/ScalaSparkHW-1.2-SNAPSHOT-fat.jar
 
 ```
-**To-do**
-
-For some reason jar is able to load the parquet file when executed using 
+**Java approach**
 
 ```
 java -cp /path/to/fatjar HelloWorld
 ```
 
-but not using spark-submit and throws inaccessible object error.
